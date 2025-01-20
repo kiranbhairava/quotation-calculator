@@ -37,10 +37,10 @@ st.header("Set Profit Margins")
 col1, col2 = st.columns(2)
 with col1:
     profit_margin_sun = st.number_input("SUN E-Learning Profit Margin (%)", 
-                                      min_value=0.0, max_value=100.0, value=20.0, step=10.0)
+                                      min_value=0.0, max_value=100.0, value=0.0, step=10.0)
 with col2:
     profit_margin_iCoast = st.number_input("iCoast Profit Margin (%)", 
-                                         min_value=0.0, max_value=100.0, value=30.0, step=10.0)
+                                         min_value=0.0, max_value=100.0, value=0.0, step=10.0)
 
 # Multi-select for services
 st.header("Select Services")
