@@ -380,7 +380,7 @@ if st.session_state.selected_services:
     with quick_invoice_col2:
         if st.button("Generate SunElearning Invoice"):
             company_info = {
-                'name': 'SUN E-Learning',
+                'name': 'Sun E-Learning',
                 'address': '123 Business Park, Tech City, State - 578962',
                 'phone': '+91 98765 43210',
                 'email': 'billing@icoast.com'
