@@ -5,7 +5,7 @@ st.title("Profit Calculator for SUN E-Learning and IQuest")
 
 # Input Manufacturing Cost
 st.header("Manufacturing Cost")
-manufacturing_cost = st.number_input("Enter Manufacturing Cost ($)", min_value=0, step=10)
+manufacturing_cost = st.number_input("Enter Manufacturing Cost (INR)", min_value=0, step=10)
 
 # Profit Margins for SUN E-Learning and IQuest
 st.header("Profit Margins")
@@ -29,15 +29,15 @@ st.header("Results")
 results = [
     {
         "Company": "SUN E-Learning",
-        "Manufacturing Cost ($)": manufacturing_cost,
-        "Selling Price ($)": selling_price_sun,
-        "Profit ($)": profit_sun,
+        "Manufacturing Cost (INR)": manufacturing_cost,
+        "Selling Price (INR)": selling_price_sun,
+        "Profit (INR)": profit_sun,
     },
     {
         "Company": "IQuest",
-        "Manufacturing Cost ($)": manufacturing_cost,
-        "Selling Price ($)": selling_price_iquest,
-        "Profit ($)": profit_iquest,
+        "Manufacturing Cost (INR)": manufacturing_cost,
+        "Selling Price (INR)": selling_price_iquest,
+        "Profit (INR)": profit_iquest,
     }
 ]
 
@@ -46,4 +46,4 @@ st.table(results)
 # Display Combined Results
 st.subheader("Combined Results")
 st.write(f"**Combined Profit Margin:** {combined_profit_margin:.2f}%")
-st.write(f"**Total Selling Price (Combined):** ${total_selling_price:.2f}")
+st.write(f"**Total Selling Price (Combined):** INR{total_selling_price:.2f}")
