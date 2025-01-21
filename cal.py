@@ -383,7 +383,7 @@ if st.session_state.selected_services:
                 'name': 'Sun E-Learning',
                 'address': '123 Business Park, Tech City, State - 578962',
                 'phone': '+91 98765 43210',
-                'email': 'billing@icoast.com'
+                'email': 'billing@sunelearning.com'
             }
             
             client_info = {
